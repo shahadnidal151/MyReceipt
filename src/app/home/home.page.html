@@ -1,14 +1,36 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  
+  <ion-card class="info">
+    <ion-card-header>
+        
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+          <ion-item>
+              <ion-img src="assets/icon/logo2.png"></ion-img>
+          </ion-item> 
+        <ion-item>
+          <ion-input input="text" placeholder="Username">
+              <ion-icon name="person"></ion-icon>
+          </ion-input>
+        </ion-item>
+        <ion-item>
+        <ion-input input="password" placeholder="Password"> <ion-icon ios="ios-lock" md="md-lock"></ion-icon></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input input="password" placeholder="Confirm Password"> <ion-icon ios="ios-lock" md="md-lock"></ion-icon></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input input="text" placeholder="Email"><ion-icon name="mail"></ion-icon></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input input="number" placeholder="Phone Number"><ion-icon name="call"></ion-icon></ion-input>
+        </ion-item>
+      </ion-list>
+      
+     
+     <ion-button expand="block" >Sign Up </ion-button>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>

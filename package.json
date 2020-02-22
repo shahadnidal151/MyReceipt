@@ -1,5 +1,5 @@
 {
-  "name": "MyReceipt",
+  "name": "myreceipt",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -54,5 +54,13 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   },
-  "description": "An Ionic project"
+  "description": "MyReceipt: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-device",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": []
 }
